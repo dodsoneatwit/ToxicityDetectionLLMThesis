@@ -56,3 +56,5 @@ For each comment presented to you, classify it based on the guidelines provided.
 
 1 for toxic comments
 0 for non-toxic comments
+
+REMEMBER, ONLY RESPOND WITH 1 OR 0
