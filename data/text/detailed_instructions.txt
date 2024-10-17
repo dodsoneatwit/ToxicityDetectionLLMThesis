@@ -23,7 +23,6 @@ False Positives/Negatives: Avoid false positives by ensuring the comment genuine
 Mild Criticism: Not all negative language is toxic. Comments that are critical but do not contain harmful intent, offensive language, or personal attacks should be labeled as non-toxic (0).
 
 Examples for Reference:
-Comment: “You’re an idiot and should be banned from this platform.”
 
 Label: 1 (Toxic)
 Reason: This is a direct personal attack with abusive language.
@@ -57,4 +56,4 @@ For each comment presented to you, classify it based on the guidelines provided.
 1 for toxic comments
 0 for non-toxic comments
 
-REMEMBER, ONLY RESPOND WITH 1 OR 0
+REMEMBER, ONLY RESPOND WITH 1 OR 0, THERE IS NO NEED FOR A RESPONSE OTHER THAN THAN THOSE
