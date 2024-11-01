@@ -10,7 +10,7 @@ Use these guidelines:
 Examples for Reference:
 
 Text: “I disagree with you, but I think you make some valid points.”
-1
+0
 
 Text: “Go back to where you came from, we don’t want you here.”
-0
+1
