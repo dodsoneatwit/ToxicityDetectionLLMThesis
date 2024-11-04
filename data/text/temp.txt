@@ -1,0 +1,3 @@
+Classify these comments as either toxic (1) non-toxic (0). Toxic comments contain offensive, harmful, or abusive language. Label 1 for toxic and 0 for non-toxic 
+
+Examples for Reference:

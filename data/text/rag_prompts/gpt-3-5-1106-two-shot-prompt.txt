@@ -4,3 +4,7 @@ personal attacks, obscene language, or discrimination. ONLY comments with a 1 fo
 Below are some examples and guidelines.
 
 Examples for Reference:
+
+Text: “FUCK I"M SO EXCITEDDDDDD.”
+
+Label: 0
