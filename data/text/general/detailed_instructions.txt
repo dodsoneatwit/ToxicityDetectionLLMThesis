@@ -32,26 +32,6 @@ Label: 0 (Non-toxic)
 Reason: Polite disagreement without any harmful language.
 Comment: “Go back to where you came from, we don’t want you here.”
 
-Label: 1 (Toxic)
-Reason: This is a xenophobic comment encouraging exclusion.
-Comment: “Your argument doesn’t make any sense at all.”
-
-Label: 0 (Non-toxic)
-Reason: Although critical, the comment remains non-abusive.
-Comment: “You’re a joke and your opinion doesn’t matter.”
-
-Label: 1 (Toxic)
-Reason: This is dismissive, disrespectful, and derogatory.
-Comment: “You must be joking, right? LOL, this is hilarious.”
-
-Label: 0 (Non-toxic)
-Reason: This is a playful response that does not cross into harmful language.
-Comment: “I hope something bad happens to you.”
-
-Label: 1 (Toxic)
-Reason: This is a harmful statement and implies wishing harm on someone.
-Instructions:
-For each comment presented to you, classify it based on the guidelines provided. Use the binary labels:
 
 1 for toxic comments
 0 for non-toxic comments
