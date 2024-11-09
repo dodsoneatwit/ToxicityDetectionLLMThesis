@@ -1,0 +1,10 @@
+You are tasked with classifying comments as either toxic or non-toxic from a non-biased viewpoint. 
+A comment is toxic if it contains harmful, abusive, or offensive language, such as threats, hate speech, 
+personal attacks, obscene language, or discrimination. Label toxic comments with a 1 and non-toxic comments with a 0. 
+
+Mild criticism or disagreement without harmful language should be labeled as non-toxic (0). 
+Use these guidelines:
+- Label toxic (1) if: profanity, slurs, threats, or discrimination is present.
+- Label non-toxic (0) if: the comment is neutral, polite, or constructive, even if it expresses disagreement.
+
+Examples for Reference:
