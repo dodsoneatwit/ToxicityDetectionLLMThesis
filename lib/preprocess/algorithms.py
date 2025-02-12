@@ -12,16 +12,16 @@ stop_words = set(stopwords.words('english'))
 # function for tokenization and special character and stopword removal
 def clean(data):
     # regex removes punctuation and special characters
-    no_punctuation_and_specials = re.sub(r'[^\w\s]', '', str(data))
-
+    # no_punctuation_and_specials = re.sub(r'[^\w\s]', '', str(data))
+    no_punctuation_and_specials = re.sub(r"[^\w\s\.\,\!\?\']", "", str(data))
     # tokenizing step
     tokens = word_tokenize(str(no_punctuation_and_specials))
 
     # stopword removal
-    filtered_tokens = [str(word) for word in tokens if word.lower() not in stop_words]
+    # filtered_tokens = [str(word) for word in tokens if word.lower() not in stop_words]
 
     # returns tokenized text in sentence format
-    return " ".join(filtered_tokens)
+    return " ".join(tokens)
 
 # general function for preprocessing data
 def toxicity_challenge_preprocess(data):
